@@ -1,88 +1,33 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="shortcut icon" href="./assets/images/logos/logo_manzana_blanco.svg" type="image/x-icon">
-        <title>LA AMISTAD</title>
-    </head>
-    <body>
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo"><img src="./assets/images/logos/logo.svg" alt="" class="nav__img"></a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8dc523b7ad.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/images/logos/logo_manzana_blanco.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>LA AMISTAD</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#Inicio">
+            <img src="./assets/images/logos/logo_blanco.svg" alt="Logo la amistad Verduleria" class="logo">
+        </a>
+        <button class="burger__link" aria-controls="nav" aria-expanded="false"></button>
+        <nav class="nav" id="nav" data-visible="false">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class='bx bx-home-alt nav__icon'></i>
-                                <span class="nav__name">Inicio</span>
-                            </a>
-                        </li>
-                        
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class='bx bx-user nav__icon'></i>
-                                <span class="nav__name">Nosotros</span>
-                            </a>
-                        </li>
+                <li class="nav__li"><a href="#Inicio">Inicio</a></li>
+                <li class="nav__li"><a href="#Nosotros">Nosotros</a></li>
+                <li class="nav__li"><a href="#Locales">Locales</a></li>
+                <li class="nav__li"><a href="#Contacto">Contacto</a></li>
+        </nav>
 
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class='bx bx-book-alt nav__icon'></i>
-                                <span class="nav__name">Sucursales</span>
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class='bx bx-briefcase-alt nav__icon'></i>
-                                <span class="nav__name">Portfolio</span>
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#contactme" class="nav__link">
-                                <i class='bx bx-message-square-detail nav__icon'></i>
-                                <span class="nav__name">Contacto</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-        <main>
-            <!--=============== HOME ===============-->
-            <section class="container section section__height" id="home">
-                <h2 class="section__title">Bienvenido/a a la amistad</h2>
-            </section>
-
-            <!--=============== ABOUT ===============-->
-            <section class="container section section__height" id="about">
-                <h2 class="section__title">About</h2>
-            </section>
-
-            <!--=============== SKILLS ===============-->
-            <section class="container section section__height" id="skills">
-                <h2 class="section__title">Skills</h2>
-            </section>
-
-            <!--=============== PORTFOLIO ===============-->
-            <section class="container section section__height" id="portfolio">
-                <h2 class="section__title">Portfolio</h2>
-            </section>
-
-            <!--=============== CONTACTME ===============-->
-            <section class="container section section__height" id="contactme">
-                <h2 class="section__title">Contactme</h2>
-            </section>
-        </main>
-        
-
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    </header>
+    <section class="section1" id="Inicio">Inicio</section>
+    <section class="section2" id="Nosotros">Nosotros</section>
+    <section class="section3" id="Locales">Locales</section>
+    <footer class="footer" id="Contacto">Contacto</footer>
+<script src="./assets/js/script.js"></script>
+</body>
 </html>
